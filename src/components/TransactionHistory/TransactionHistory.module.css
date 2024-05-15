@@ -1,0 +1,41 @@
+.table {
+  width: 600px;
+  text-align: center;
+  border-collapse: collapse;
+
+  margin-top: 20px;
+}
+
+td {
+  width: calc(100% / 3);
+}
+
+td,
+tr,
+th {
+  border: 2px solid black;
+}
+
+.tableHead {
+  background-color: #333232;
+  color: white;
+}
+
+.tableRow {
+  color: #212121;
+  font-weight: 500;
+}
+
+.tableRow:nth-child(odd) {
+  background-color: white;
+}
+
+.tableRow:nth-child(even) {
+  background-color: darkgray;
+}
+
+.tracsactionType {
+  text-transform: capitalize;
+  text-align: start;
+  padding-left: 40px;
+}
